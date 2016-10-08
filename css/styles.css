@@ -10,3 +10,7 @@ body {
   text-align: center;
   color: #FF33FF
 }
+
+#result {
+  display: none;
+}

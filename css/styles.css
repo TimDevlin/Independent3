@@ -1,0 +1,12 @@
+.jumbotron {
+  background-image: url("http://pre10.deviantart.net/4a31/th/pre/f/2010/238/a/d/ping_pong_panda_by_phodyr.jpg");
+  background-size: cover;
+  color: #FF33FF
+}
+
+body {
+  margin-top: 40px;
+  background-image: url("http://www.lovethesepics.com/wp-content/uploads/2013/06/Dense-green-bamboo-forest.jpg");
+  text-align: center;
+  color: #FF33FF
+}

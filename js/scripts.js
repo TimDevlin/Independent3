@@ -16,18 +16,18 @@ var pandaOut = function(number) {
    }
   return userNum
 
-});
 }
-
-
 
 // Front-end Logic
 
-$(function() {
+$(document).ready(function() {
   $("form#Panda").submit(function(event) {
-    event.preventDefault.();
+    event.preventDefault();
+
     var number = parseInt($("input#number").val());
     var results = pandaOut(number);
-    $("#result").text(result);
+
+    $("#result").append(results);
+    $("#show-contact").show();
   });
 });
